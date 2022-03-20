@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtRev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Revisión"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="40dp"
+        android:layout_alignTop="@+id/txtRev"
+        android:background="#000">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ic_rayo" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/takePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/ic_camera" />
+
+    <TableLayout
+        android:id="@+id/tblDatos"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/takePhoto"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:stretchColumns="1">
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Fecha de Toma"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="3dp"/>
+
+            <EditText
+                android:layout_gravity="right"
+                android:focusable="false"
+                android:padding="3dp"
+                android:textSize="20dp" />
+        </TableRow>
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Hora"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="3dp"/>
+
+            <EditText
+                android:layout_gravity="right"
+                android:focusable="false"
+                android:padding="3dp"
+                android:textSize="20dp"/>
+        </TableRow>
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Grado de depresión"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="3dp"/>
+
+            <EditText
+                android:layout_gravity="right"
+                android:focusable="false"
+                android:padding="3dp"
+                android:textSize="20dp"/>
+        </TableRow>
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Estado de animo"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="3dp"/>
+
+            <EditText
+                android:layout_gravity="right"
+                android:focusable="false"
+                android:padding="3dp"
+                android:textSize="20dp"/>
+        </TableRow>
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+    </TableLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_below="@+id/tblDatos"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

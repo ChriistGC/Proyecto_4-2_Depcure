@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/principalFragment"
+        android:icon="@drawable/ic_principal"
+        android:title="Principal"/>
+    <item
+        android:id="@+id/cuestionario"
+        android:icon="@drawable/ic_questionario"
+        android:title="Test"/>
+
+    <item
+        android:id="@+id/tratamientoFragment"
+        android:icon="@drawable/ic_tratamiento"
+        android:title="Tratamiento"/>
+
+    <item
+        android:id="@+id/perfilFragment"
+        android:icon="@drawable/ic_person"
+        android:title="Perfil"/>
+
+</menu>

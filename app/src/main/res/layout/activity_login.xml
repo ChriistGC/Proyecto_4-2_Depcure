@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:backgroundTint="#2196F3">
+
+    <LinearLayout
+        android:id="@+id/lnp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/img_wave">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="-40dp"
+                android:layout_marginRight="-40dp"
+                android:src="@drawable/img_logo" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/lnp2"
+        android:layout_below="@id/lnp1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="right"
+            android:text="Iniciar Sesión"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/lnp3"
+        android:layout_below="@id/lnp2"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCorreo"
+            android:hint="@string/correo"
+            app:startIconDrawable="@drawable/ic_mail">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editCorreo"
+                android:inputType="textEmailAddress"
+                android:textSize="18sp"
+                android:backgroundTint="@color/white"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/txtContra"
+            android:hint="@string/contraseña"
+            app:passwordToggleEnabled="true"
+            app:startIconDrawable="@drawable/ic_lock">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editContra"
+                android:inputType="textPassword"
+                android:textSize="18sp"
+                android:backgroundTint="@color/white"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/lnp4"
+        android:layout_below="@id/lnp3"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <Button
+            android:id="@+id/btn_log"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_gravity="right"
+            android:layout_marginBottom="130dp"
+            android:backgroundTint="@color/blue"
+            android:text="Ingresar"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="30dp"
+            android:drawableEnd="@drawable/ic_login"/>
+    </LinearLayout>
+</RelativeLayout>

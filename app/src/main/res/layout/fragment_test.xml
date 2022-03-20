@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5D2E7">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/img_logo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="DepCure Test"
+        android:textStyle="bold"
+        android:textSize="40dp"/>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cargando"
+        android:layout_marginTop="410dp"
+        android:textSize="20dp"
+        android:textColor="#25292E"
+        />
+
+</RelativeLayout>

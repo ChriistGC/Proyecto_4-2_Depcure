@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "190707569020",
+    "firebase_url": "https://depcure-71928-default-rtdb.firebaseio.com",
+    "project_id": "depcure-71928",
+    "storage_bucket": "depcure-71928.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190707569020:android:55c60d3f9e46e873a494f9",
+        "android_client_info": {
+          "package_name": "com.example.depcure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190707569020-7h80cu7rqiqgko03ivqonimoliol6chh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0IcO07DAp_HcLGpvg7ehzGQaXR4f3WeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190707569020-7h80cu7rqiqgko03ivqonimoliol6chh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

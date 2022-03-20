@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/drawable-xhdpi/gray_gradient.xml" value="0.121" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/drawable-xhdpi/ic_changecamera.xml" value="0.184" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/drawable-xhdpi/ic_clickcamera.xml" value="0.184" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/layout/activity_camera_xface_recognition.xml" value="0.25" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/layout/activity_login.xml" value="0.12158054711246201" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/layout/activity_main.xml" value="0.12158054711246201" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/layout/activity_principal.xml" value="0.12158054711246201" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/layout/activity_register.xml" value="0.12158054711246201" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/layout/click_style.xml" value="0.25" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/layout/fragment_principal.xml" value="0.12158054711246201" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/layout/fragment_still_image_preference.xml" value="0.25" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/layout/fragment_test.xml" value="0.12158054711246201" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/layout/fragment_tratamiento.xml" value="0.12158054711246201" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/layout/settings_style.xml" value="0.25" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/layout/text_settings.xml" value="0.25" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/layout/text_settings_right.xml" value="0.25" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/menu/bottom_navigation.xml" value="0.2351851851851852" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/xml/preference_live_preview_quickstart.xml" value="0.25" />
+        <entry key="..\:/Descargas/Depcure/Depcure/Depcure/app/src/main/res/xml/preference_still_image.xml" value="0.25" />
+        <entry key="..\:/Programacion/SweetBread/Christopher-Gonzalez-0952548543/Proyecto_4-2_Depcure/app/src/main/res/layout/fragment_principal.xml" value="0.25" />
+        <entry key="..\:/Programacion/SweetBread/Depcure/app/src/main/res/layout/activity_camera_xface_recognition.xml" value="0.10989583333333333" />
+        <entry key="..\:/Programacion/SweetBread/Depcure/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/Programacion/SweetBread/Depcure/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Programacion/SweetBread/Depcure/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Jorge Luis/Downloads/Depcure/Depcure/app/src/main/res/layout/activity_login.xml" value="0.175" />
+        <entry key="..\:/Users/Jorge Luis/Downloads/Depcure/Depcure/app/src/main/res/layout/activity_main.xml" value="0.175" />
+        <entry key="..\:/Users/Jorge Luis/Downloads/Depcure/Depcure/app/src/main/res/layout/activity_principal.xml" value="0.175" />
+        <entry key="..\:/Users/Jorge Luis/Downloads/Depcure/Depcure/app/src/main/res/layout/activity_register.xml" value="0.175" />
+        <entry key="..\:/Users/Jorge Luis/Downloads/Depcure/Depcure/app/src/main/res/layout/fragment_editar_perfil.xml" value="0.175" />
+        <entry key="..\:/Users/Jorge Luis/Downloads/Depcure/Depcure/app/src/main/res/layout/fragment_perfil.xml" value="0.1" />
+        <entry key="..\:/Users/Jorge Luis/Downloads/Depcure/Depcure/app/src/main/res/layout/fragment_principal.xml" value="0.175" />
+        <entry key="..\:/Users/Jorge Luis/Downloads/Depcure/Depcure/app/src/main/res/layout/fragment_tratamiento.xml" value="0.175" />
+        <entry key="app/src/main/res/drawable-v24/fondo_degradado.xml" value="0.1875" />
+        <entry key="app/src/main/res/drawable-v24/ic_ced.xml" value="0.1875" />
+        <entry key="app/src/main/res/drawable-v24/ic_edad.xml" value="0.1875" />
+        <entry key="app/src/main/res/drawable-v24/ic_lock.xml" value="0.1645" />
+        <entry key="app/src/main/res/drawable-v24/ic_login.xml" value="0.1645" />
+        <entry key="app/src/main/res/drawable-v24/ic_mail.xml" value="0.1645" />
+        <entry key="app/src/main/res/drawable-v24/ic_nivel.xml" value="0.1875" />
+        <entry key="app/src/main/res/drawable-v24/ic_nombre.xml" value="0.1875" />
+        <entry key="app/src/main/res/drawable-v24/ic_person.xml" value="0.1875" />
+        <entry key="app/src/main/res/drawable-v24/ic_phone.xml" value="0.1875" />
+        <entry key="app/src/main/res/drawable-v24/ic_principal.xml" value="0.1875" />
+        <entry key="app/src/main/res/drawable-v24/ic_register.xml" value="0.1875" />
+        <entry key="app/src/main/res/drawable-v24/ic_tratamiento.xml" value="0.1875" />
+        <entry key="app/src/main/res/drawable/btn_shape.xml" value="0.1875" />
+        <entry key="app/src/main/res/drawable/btn_shape_timeout.xml" value="0.1875" />
+        <entry key="app/src/main/res/drawable/empty_back.xml" value="0.1875" />
+        <entry key="app/src/main/res/drawable/ic_back.xml" value="0.1875" />
+        <entry key="app/src/main/res/drawable/ic_questionario.xml" value="0.1875" />
+        <entry key="app/src/main/res/drawable/ic_timer.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2907692307692308" />
+        <entry key="app/src/main/res/layout/activity_principal.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_editar_perfil.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_perfil.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_principal.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/fragment_quiz.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_test.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_tratamiento.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/row.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/time_out_dialog.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
